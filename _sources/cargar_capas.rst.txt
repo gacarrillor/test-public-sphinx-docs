@@ -5,7 +5,7 @@ El Asistente LADM-COL tiene una herramienta para cargar capas conservando las ca
 
 Este permite cargar una o muchas capas configurando de forma automática los dominios, dependencias y relaciones del modelo, así como una símbología única para cada capa espacial que se cargue. También tiene unas capas para cargar de forma predeterminada.
 
-Probando, 1,2,3...
+Probando, 1,2,3... 4,5,6...
 
 .. image:: _static/cargar_capas/load_layers.gif
     :height: 500
