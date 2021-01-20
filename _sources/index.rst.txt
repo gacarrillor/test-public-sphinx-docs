@@ -1,5 +1,5 @@
-¡Bienvenidos a la documentación del Asistente LADM-COL!
-======================================================
+Documentación del Asistente LADM-COL
+=======================================
 
 .. toctree::
    :maxdepth: 2

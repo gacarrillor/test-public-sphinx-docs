@@ -15,12 +15,7 @@ Para generar el informe del anexo 17, sigue estos pasos:
 1. Selecciona el o los terrenoss a los cuales les quieres generar el reporte.
 2. Ve a `LADM-COL --> Reportes` y haz clic en el botón `Generar Anexo 17`.
 
-.. image:: ../_static/reportes/annex_17_1.gif
-    :height: 500
-    :width: 800
-    :alt: Generar reporte anexo 17 paso 1
-    :download: true
-    :title: Generar reporte anexo 17 paso 1
+    <img src="_static/reportes/annex_17_1.gif" alt="Generar reporte anexo 17 paso 1" style="height:500px;width:800px" />
 
 3. Descargar dependencias. Este paso se realiza una sola vez.
 4. Debes indicar el directorio donde deseas almacenar los documentos generados.
@@ -28,7 +23,7 @@ Para generar el informe del anexo 17, sigue estos pasos:
 6. Obtendrás la validación de los informes generados con una barra de mensajes en verde y dentro de ella un enlace a la ruta donde se encuentran los archivos.
 7. Ve al directorio que seleccionaste en el paso 3 para verificar el resultado, que debería verse como en la siguiente imagen:
 
-<img src="_static/reportes/annex_17_2.gif" alt="Generar reporte anexo 17" style="height:500px;width:800px" />
+    <img src="_static/reportes/annex_17_2.gif" alt="Generar reporte anexo 17 paso 2" style="height:500px;width:800px" />
 
 
 
