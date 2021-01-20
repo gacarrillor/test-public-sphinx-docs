@@ -39,9 +39,7 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
   <link rel="stylesheet" href="_static/sphinxcontrib-images/LightBox2/lightbox2/css/lightbox.css" type="text/css" />
     <link rel="index" title="Índice" href="genindex.html" />
-    <link rel="search" title="Búsqueda" href="search.html" />
-    <link rel="next" title="Configuración" href="configuracion.html" />
-    <link rel="prev" title="Acerca de" href="acerca_de.html" /> 
+    <link rel="search" title="Búsqueda" href="search.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -85,27 +83,21 @@
               
             
             
-              <p class="caption"><span class="caption-text">Contents:</span></p>
-<ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="acerca_de.html">Acerca de</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Instalación</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#requerimientos-minimos">Requerimientos mínimos</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#proceso-de-instalacion">Proceso de instalación</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#habilitar-proyeccion-con-origen-unico-nacional">Habilitar proyección con Origen Único Nacional</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#suscribete-a-los-lanzamientos-del-asistente-ladm-col">Suscríbete a los lanzamientos del Asistente-LADM_COL</a></li>
-</ul>
-</li>
+              <p class="caption"><span class="caption-text">Contenido:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="introduccion.html">Introducción</a></li>
 <li class="toctree-l1"><a class="reference internal" href="configuracion.html">Configuración</a></li>
-<li class="toctree-l1"><a class="reference internal" href="barra_de_herramientas.html">Barra de herramientas</a></li>
 <li class="toctree-l1"><a class="reference internal" href="administracion_de_datos.html">Administración de datos</a></li>
-<li class="toctree-l1"><a class="reference internal" href="captura_y_estructura_de_datos.html">Captura y estructuración de datos</a></li>
-<li class="toctree-l1"><a class="reference internal" href="cargar_capas.html">Cargas capas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="barra_de_herramientas.html">Barra de herramientas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cargar_capas.html">Cargar capas</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gestion_de_insumos.html">Gestión de insumos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="captura_de_datos_en_campo.html">Captura de datos en campo</a></li>
 <li class="toctree-l1"><a class="reference internal" href="reglas_de_calidad.html">Reglas de calidad</a></li>
 <li class="toctree-l1"><a class="reference internal" href="consulta_de_datos.html">Consulta de datos</a></li>
 <li class="toctree-l1"><a class="reference internal" href="reportes.html">Reportes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="identificacion_de_novedades.html">Identificación de novedades</a></li>
 <li class="toctree-l1"><a class="reference internal" href="sistema_de_transicion.html">Sistema de transición</a></li>
+<li class="toctree-l1"><a class="reference internal" href="acerca_de.html">Acerca de</a></li>
 </ul>
 
             
@@ -157,7 +149,7 @@
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="_sources/instalacion.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/instalacion.md.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -174,103 +166,64 @@
 <h1>Instalación<a class="headerlink" href="#instalacion" title="Enlazar permanentemente con este título">¶</a></h1>
 <div class="section" id="requerimientos-minimos">
 <h2>Requerimientos mínimos<a class="headerlink" href="#requerimientos-minimos" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>Para usar el Asistente LADM_COL se requiere:</p>
-<blockquote>
-<div><ul class="simple">
-<li><p>Sistema Operativo:
-- Windows 10
-- GNU/Linux
-- macOS</p></li>
-<li><p>Software base:
-- QGIS v3.10.0-A Coruña o superior
-- Java v1.8
-- PostgreSQL 9.5 o superior (funciona PostgreSQL 10, 11 o 12).
-- PostGIS 2.4 o superior.</p></li>
-<li><p>Complementos de QGIS (al instalar el Asistente LADM-COL usando el Administrador de Complementos de QGIS, las dependencias se instalarán automáticamente):
-- <a class="reference external" href="https://github.com/SwissTierrasColombia/QgisModelBaker/releases/download/v6.1.1.4/QgisModelBaker_6114.zip">QGIS Model Baker v6.1.1.4</a>.
-- MapSwipe Tool v1.2</p></li>
+<p>Para usar el Asistente LADM-COL se requiere:</p>
+<ul class="simple">
+<li><p>Sistema Operativo:</p>
+<ul>
+<li><p>Windows 10</p></li>
+<li><p>GNU/Linux</p></li>
+<li><p>macOS</p></li>
 </ul>
-</div></blockquote>
+</li>
+<li><p>Software base:</p>
+<ul>
+<li><p>QGIS v3.10.0-A Coruña o superior</p></li>
+<li><p>Java v1.8</p></li>
+<li><p>PostgreSQL 9.5 o superior (funciona PostgreSQL 10, 11 o 12).</p></li>
+<li><p>PostGIS 2.4 o superior.</p></li>
+</ul>
+</li>
+<li><p>Complementos de QGIS (al instalar el Asistente LADM-COL usando el Administrador de Complementos de QGIS, las dependencias se instalarán automáticamente):</p>
+<ul>
+<li><p>QGIS Model Baker <a class="reference external" href="https://github.com/SwissTierrasColombia/QgisModelBaker/releases/download/v6.1.1.4/QgisModelBaker_6114.zip">v6.1.1.4</a>.</p></li>
+<li><p>MapSwipe Tool v1.2</p></li>
+</ul>
+</li>
+</ul>
 </div>
 <div class="section" id="proceso-de-instalacion">
 <h2>Proceso de instalación<a class="headerlink" href="#proceso-de-instalacion" title="Enlazar permanentemente con este título">¶</a></h2>
-<ul class="simple">
-<li><p>Es necesario tener el Software QGIS versión 3 instalado, recomendamos usar la versión 3.10.0-A Coruña o superior, para obtener este diríjete a <a class="reference external" href="https://qgis.org/es/site/forusers/download.html">QGIS</a></p></li>
-<li><p>El proceso puede ser observado graficamete en el siguiente GIF:</p></li>
-</ul>
-<a class=""
-               data-lightbox="group-bd9c921d-a8c4-41f5-9a33-42ffed6d2888"
-               href="_images/instalation.gif"
-               title="Proceso de instalación del plugin"
-               data-title="Proceso de instalación del plugin"
-               ><img src="_images/instalation.gif"
-                     class=""
-                     width="800"
-                     height="500"
-                     alt="Proceso de instalación del plugin"/>
-                </a><ul class="simple">
+<ul>
+<li><p>Es necesario tener el Software QGIS versión 3 instalado, recomendamos usar la versión 3.10.0-A Coruña o superior, para obtener este diríjete a <a class="reference external" href="https://qgis.org/es/site/forusers/download.html">la página de descargas de QGIS</a>.</p></li>
+<li><p>El proceso puede ser observado graficamete en el siguiente GIF:</p>
+  <img src="_static/instalacion/instalation.gif" alt="Proceso de instalación del plugin" style="height:500px;width:800px" /></li>
 <li><p>Asegúrate de tener la última versión del plugin QgisModelBaker, el Asistente LADM_COL
-depende de este plugin para funcionar, de lo contrario este mensaje aparecerá:</p></li>
+depende de este plugin para funcionar, de lo contrario este mensaje aparecerá:  <img src="_static/instalacion/error_asistente_qgis_model_baker.png" alt="Error de dependencia QgisModelBaker" /></p></li>
+<li><p>Si tienes un error, puedes instalar el plugin QgisModelBaker como en el siguiente gif:</p>
+  <img src="_static/instalacion/instalation_qgis_model_baker.gif" alt="Instalación de QgisModelBaker" style="height:500px;width:800px" /></li>
 </ul>
-<a class=""
-               data-lightbox="group-d620a55f-03b5-4f1b-826d-4e8144b1b7ac"
-               href="_images/error_asistente_qgis_model_baker.png"
-               title="Error de dependencia QgisModelBaker"
-               data-title="Error de dependencia QgisModelBaker"
-               ><img src="_images/error_asistente_qgis_model_baker.png"
-                     class=""
-                     width="800"
-                     height="500"
-                     alt="Error de dependencia QgisModelBaker"/>
-                </a><ul class="simple">
-<li><p>Si tienes un error, puedes instalar el plugin QgisModelBaker como en el siguiente gif:</p></li>
-</ul>
-<a class=""
-               data-lightbox="group-136fc4ad-f00c-49a8-81f6-459316449aa5"
-               href="_images/instalation_qgis_model_baker.gif"
-               title="Instalación de QgisModelBaker"
-               data-title="Instalación de QgisModelBaker"
-               ><img src="_images/instalation_qgis_model_baker.gif"
-                     class=""
-                     width="800"
-                     height="500"
-                     alt="Instalación de QgisModelBaker"/>
-                </a></div>
+</div>
 <div class="section" id="habilitar-proyeccion-con-origen-unico-nacional">
 <h2>Habilitar proyección con Origen Único Nacional<a class="headerlink" href="#habilitar-proyeccion-con-origen-unico-nacional" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Para poder usar la proyección con Origen Único Nacional antes de que esté oficialmente en la base de datos de Sistemas de Referencia de QGIS, debemos permitir que el Asistente LADM-COL configure dicha proyección.</p>
 <p>Para ello, basta con otorgar estos dos permisos de escritura al usuario con el cual usamos QGIS:</p>
-<a class=""
-               data-lightbox="group-1a13aa59-8e69-4213-b8ad-72210b48e958"
-               href="_images/permisos_srs.gif"
-               title="Habilitar proyección con Origen Único Nacional"
-               data-title="Habilitar proyección con Origen Único Nacional"
-               ><img src="_images/permisos_srs.gif"
-                     class=""
-                     width="800"
-                     height="500"
-                     alt="Habilitar proyección con Origen Único Nacional"/>
-                </a></div>
+<img src="_static/instalacion/permisos_srs.gif" alt="Habilitar proyección Origen Nacional" style="height:500px;width:800px" /></div>
 <div class="section" id="suscribete-a-los-lanzamientos-del-asistente-ladm-col">
 <h2>Suscríbete a los lanzamientos del Asistente-LADM_COL<a class="headerlink" href="#suscribete-a-los-lanzamientos-del-asistente-ladm-col" title="Enlazar permanentemente con este título">¶</a></h2>
-<ol class="arabic simple">
-<li><p>Ingrese al siguiente <a class="reference external" href="https://gitpunch.com/">ENLACE</a></p></li>
+<ol class="simple">
+<li><p>Ingrese al siguiente <a class="reference external" href="https://gitpunch.com">enlace</a>.</p></li>
 <li><p>Busque Asistente-LADM_COL.</p></li>
 <li><p>Seleccione ingrese correo electronico.</p></li>
 <li><p>Inicia sesión o regístrate el correo electrónico y la contraseña.</p></li>
 <li><p>Listo, estás suscrito a los lanzamientos del Asistente-LADM_COL.</p></li>
 </ol>
-<a class=""
-               data-lightbox="group-31f8d5f3-df97-4205-b69d-72ea72d7432d"
-               href="_images/suscribe_notification_new_release.gif"
-               title="Suscribirse al lanzamiento de versiones Asistente LADM-COL"
-               data-title="Suscribirse al lanzamiento de versiones Asistente LADM-COL"
-               ><img src="_images/suscribe_notification_new_release.gif"
-                     class=""
-                     width="800"
-                     height="500"
-                     alt="Suscribirse al lanzamiento de versiones Asistente LADM-COL"/>
-                </a></div>
+<p>.. image:: _static/instalacion/suscribe_notification_new_release.gif
+:height: 500
+:width: 800
+:alt: Suscribirse al lanzamiento de versiones Asistente LADM-COL
+:download: true
+:title: Suscribirse al lanzamiento de versiones Asistente LADM-COL</p>
+</div>
 </div>
 
 
@@ -279,21 +232,12 @@ depende de este plugin para funcionar, de lo contrario este mensaje aparecerá:<
           </div>
           <footer>
   
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="configuracion.html" class="btn btn-neutral float-right" title="Configuración" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="acerca_de.html" class="btn btn-neutral float-left" title="Acerca de" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
-    </div>
-  
 
   <hr/>
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2020, Agencia de implementación
+        &copy; Copyright 
 
     </p>
   </div>
