@@ -52,3 +52,5 @@
 <img src="_static/reglas_de_calidad/right_of_way_should_not_overlap_buildings.gif" alt="Las Servidumbres no se deben superponer con Construcciones" style="height:500px;width:800px" />
 
 
+
+## Reglas de consistencia lógica

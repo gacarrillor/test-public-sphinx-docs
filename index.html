@@ -92,6 +92,7 @@
 <li class="toctree-l1"><a class="reference internal" href="introduccion.html">Introducción</a></li>
 <li class="toctree-l1"><a class="reference internal" href="configuracion.html">Configuración</a></li>
 <li class="toctree-l1"><a class="reference internal" href="administracion_de_datos.html">Administración de datos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="captura_y_estructura_de_datos.html">Captura y estructuración de datos</a></li>
 <li class="toctree-l1"><a class="reference internal" href="barra_de_herramientas.html">Barra de herramientas</a></li>
 <li class="toctree-l1"><a class="reference internal" href="cargar_capas.html">Cargar capas</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gestion_de_insumos.html">Gestión de insumos</a></li>
@@ -101,7 +102,6 @@
 <li class="toctree-l1"><a class="reference internal" href="reportes.html">Reportes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="identificacion_de_novedades.html">Identificación de novedades</a></li>
 <li class="toctree-l1"><a class="reference internal" href="sistema_de_transicion.html">Sistema de transición</a></li>
-<li class="toctree-l1"><a class="reference internal" href="acerca_de.html">Acerca de</a></li>
 </ul>
 
             
@@ -171,7 +171,11 @@
 <div class="toctree-wrapper compound">
 <p class="caption"><span class="caption-text">Contenido:</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="introduccion.html">Introducción</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduccion.html">Introducción</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="introduccion.html#generalidades">Generalidades</a></li>
+<li class="toctree-l2"><a class="reference internal" href="introduccion.html#instalacion">Instalación</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="configuracion.html">Configuración</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="configuracion.html#conexion-a-base-de-datos">Conexión a Base de Datos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="configuracion.html#parametros-de-postgresql-postgis">Párametros de PostgreSQL/PostGIS</a></li>
@@ -188,8 +192,16 @@
 <li class="toctree-l2"><a class="reference internal" href="administracion_de_datos.html#exportar-datos">Exportar datos</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="captura_y_estructura_de_datos.html">Captura y estructuración de datos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="captura_y_estructura_de_datos.html#levantamiento-catastral">Levantamiento Catastral</a></li>
+<li class="toctree-l2"><a class="reference internal" href="captura_y_estructura_de_datos.html#subir-archivos-fuentes-pendientes">Subir archivos fuentes pendientes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="captura_y_estructura_de_datos.html#arreglar-relaciones-ladm-col">Arreglar relaciones LADM-COL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="captura_y_estructura_de_datos.html#como-usar-el-mapeo-de-campos">¿Cómo usar el mapeo de campos?</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="barra_de_herramientas.html">Barra de herramientas</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="barra_de_herramientas.html#partir-por-segmento-y-unir">Partir por segmento y Unir</a></li>
+<li class="toctree-l2"><a class="reference internal" href="barra_de_herramientas.html#construir-linderos">Construir linderos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="barra_de_herramientas.html#mover-nodos">Mover nodos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="barra_de_herramientas.html#llenar-puntosccl">Llenar PuntosCCL</a></li>
 <li class="toctree-l2"><a class="reference internal" href="barra_de_herramientas.html#llenar-mas-y-menos-ccl">Llenar más y menos CCL</a></li>
 <li class="toctree-l2"><a class="reference internal" href="barra_de_herramientas.html#llenar-relaciones-de-servidumbre-de-paso">Llenar relaciones de Servidumbre de paso</a></li>
@@ -211,9 +223,15 @@
 <li class="toctree-l2"><a class="reference internal" href="reglas_de_calidad.html#reglas-para-puntos">Reglas para puntos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="reglas_de_calidad.html#reglas-para-lineas">Reglas para Líneas</a></li>
 <li class="toctree-l2"><a class="reference internal" href="reglas_de_calidad.html#reglas-para-poligonos">Reglas para Polígonos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reglas_de_calidad.html#reglas-de-consistencia-logica">Reglas de consistencia lógica</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="consulta_de_datos.html">Consulta de datos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="consulta_de_datos.html">Consulta de datos</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="consulta_de_datos.html#consulta-alfanumerica">Consulta alfanumérica</a></li>
+<li class="toctree-l2"><a class="reference internal" href="consulta_de_datos.html#consulta-espacial">Consulta espacial</a></li>
+<li class="toctree-l2"><a class="reference internal" href="consulta_de_datos.html#resultados-de-las-consultas">Resultados de las consultas</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="reportes.html">Reportes</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="reportes.html#anexo-17">Anexo 17</a></li>
 <li class="toctree-l2"><a class="reference internal" href="reportes.html#plano-ant">Plano ANT</a></li>
@@ -229,12 +247,6 @@
 <li class="toctree-l2"><a class="reference internal" href="sistema_de_transicion.html#autenticacion">Autenticación</a></li>
 <li class="toctree-l2"><a class="reference internal" href="sistema_de_transicion.html#ver-tareas">Ver tareas</a></li>
 <li class="toctree-l2"><a class="reference internal" href="sistema_de_transicion.html#salir">Salir</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="acerca_de.html">Acerca de</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="acerca_de.html#soporte-de-funcionalidades-por-motor-de-base-de-datos">Soporte de funcionalidades por motor de base de datos</a></li>
-<li class="toctree-l2"><a class="reference internal" href="acerca_de.html#funcionalidades">Funcionalidades</a></li>
-<li class="toctree-l2"><a class="reference internal" href="acerca_de.html#galeria">Galería</a></li>
 </ul>
 </li>
 </ul>
@@ -259,7 +271,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 
+        &copy; Copyright 2017-ahora, SwissTierras Colombia
 
     </p>
   </div>

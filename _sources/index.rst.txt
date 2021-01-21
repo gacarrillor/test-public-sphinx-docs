@@ -8,6 +8,7 @@ Documentación del Asistente LADM-COL
    introduccion.md
    configuracion.md
    administracion_de_datos.md
+   captura_y_estructura_de_datos.md
    barra_de_herramientas.md
    cargar_capas.md
    gestion_de_insumos.md
@@ -17,4 +18,3 @@ Documentación del Asistente LADM-COL
    reportes.md
    identificacion_de_novedades.md
    sistema_de_transicion.md
-   acerca_de.md

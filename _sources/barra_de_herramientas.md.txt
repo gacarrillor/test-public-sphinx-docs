@@ -12,13 +12,9 @@ en "Herramientas LADM-COL" o como en el siguiente gif:
 
 
 
-## Partir por segmento y Unir
+## Construir linderos
 
-Si necesitas unir o explotar por segmentos los linderos puedes utilizar los botones Unir y Partir por segmento en la barra de herramientas de LADM_COL.
-
-<img src="_static/barra_de_herramientas/build_boudaries.gif" alt="Construir linderos" style="height:500px;width:800px" />
-
-
+## Mover nodos
 
 ## Llenar PuntosCCL
 
